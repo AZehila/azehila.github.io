@@ -13,9 +13,9 @@
   <p> Il s'agit du site de la plateforme américine youtube, permettant le partage et le visionnage de vidéos par ses utilisateurs.<p>
   <li><b><a href="https://www.cnil.fr">Cnil.fr</a></b></li>
   <p> Il s'agit ici du site de l'autorité indépendante française dédiée à la protection des données personnelles relativement aux dispositions du RGPD</p>
-
+</ul>
  <h3> Sous forme de liste numérotée</h3>
- <ol type="1">
+ <ol>
   <li>Lemonde.Fr</li>
   <li>Youtube.Fr</li>
   <li>Cnil.fr</li>
