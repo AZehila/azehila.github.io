@@ -15,7 +15,7 @@
   <p> Il s'agit ici du site de l'autorité indépendante française dédiée à la protection des données personnelles relativement aux dispositions du RGPD</p>
 
  <h3> Sous forme de liste numérotée</h3>
- <ol>
+ <ol type="1">
   <li>Lemonde.Fr</li>
   <li>Youtube.Fr</li>
   <li>Cnil.fr</li>
