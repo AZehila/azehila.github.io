@@ -2,59 +2,28 @@
 <html>
 <head>
    <meta charset="UTF-8">
-   <link rel="stylesheet" href="style_cv.css" />
   <title>Mon CV FOFANA Aicha</title>
 </head>
 <body>
-
-   <div id="mySidenav" class="sidenav">
-      <a id="closeBtn" href="#" class="close">×</a>
-      <ul>
-        <li><a href="#">Expériences professionnelles</a></li>
-        <li><a href="#">Mon parcours</a></li>
-        <li><a href="#">Mes coordonnées</a></li>
-      
-      </ul>
-    </div>
-
-    <div class="boxcv-2">
-    <div class="entete">
-      <h1>Curriculum Vitae Aicha Fofana </h1>
-      <h4> a remplacer avec une photo </h4>
-   </div>
-</div>
-
-   <div class="boxcv">
-      <div class="agauche">
-
-   <img src="Photo cv.png" alt="Photo cv"/>
-   <h2> Informations personnelles</h2>
-   <p>+ 33 7 52 33 47 21</p>
-   <p><a href="https://www.linkedin.com/in/aichazehilafofana/">Mon profil linkedin</a></p>
-    <p><a href="mailto:aichaz.fofana@icloud.com">Me contacter par mail!</a></p>
-    <p><a href="monfichier.zip">Mon CV en format pdf (à remplacer)</a></p>
-    <h2> Compétences</h2>
-    <li>HTLM/CSS, SQL, C</li>
-    <li>MOOC ANSSI(2021)</li>
-    <li>MOOC INPI (2021)</li>
-    <li>Anglais TOEIC 985/990 (C1)</li>
-    <li>Base de données juridiques</li>
-    <li>Photoshop, AdobePremiere</li>
-   </div>
-
-
-<div class="adroite">
- <h2> Expériences professionnelles</h2>
+<h1> FOFANA Aicha </h1>
+<img src="Photo cv.png" alt="Photo cv"/>
+ <h3> Expériences professionnelles</h3>
  <dl>
+   <figure>
+         <img src="Logo Carrefour.png" alt=Logo Carrefour/>
+     </figure> 
      <dt><h4>Apprentie Chargée Données Personnelles</h4>
     <h4><strong>Carrefour/CarrefourBanque | Janvier 2022 - Present </strong></h4>
     <dd>Accompagner les équipes dans la mise en conformité de leurs projets. </dd>
     <dd>Mise en conformité des entités règlementées de Carrefour (Banque, Assurance) et des services marchands (Carrefour Location, Voyages etc)</dd>
-    <dd>Gouvernance RGPD globale</dd>
+    <dd>Mise à jour des registres de traitement de ces entités</dd>
    </dt>
+   <figure>
+      <img src="Logo Malt.png" alt=Logo Malt/>
+  </figure> 
    <dt><h4>Apprentie juriste ethics and compliance</h4>
        <h4><strong>MALT Community | Septembre 2021 - Janvier 2022 </strong></h4>
-       <dd>Implémenter des dispositifs anti-corruption en conformité avec la Loi SAPIN II, LPM (Lanceur d'alerte, code de conduite...)</dd>
+       <dd>Implémentation des dispositifs anti-corruption (Lanceur d'alerte, code de conduite...)</dd>
        <dd>Production de contenus et formation pour les équipes opérationnelles en anglais et en français</dd>
        <dd>Vérification de la conformité des free-lances</dd>
       </dt>
@@ -83,27 +52,19 @@
    </dt>
 </dt>
  </dl>
-
- <h2> Formation Universitaire</h2>
+ <h3> Formation Universitaire</h3>
  <li><strong>Droit du numérique Parcours informatique et droit | UPEC</strong>  </li>
  <p>Formation bi-disciplinaire. Droit des contrats, droit des données personnelles, Droit de la propriété intellectuelle
-    Base de données SQL, Programmation (C, HTML, CSS), Algorithmique
+    Base de données SQL, Programmation (C,HTML,CSS), Algorithmique
  </p>
  <li><b>UE Complémentaires | CNAM (Conservatoire National des Arts et Métiers)</b></li>
  <p>Droit, enjeux sécurité et conformité (RGPD, Loi Sapin II, LPM), Principes généraux de fiscalité d'entreprise </p>
  <li><b>Licence Gestion parcours Marketing-Vente | Université de Montpellier</b></li>
  <p>Contrôle de gestion, Strategic Diagnosis, International Trade</p>
  <li><b>Licence de Droit générale | Université de Strasbourg</b></li>
-
- <h2> Divers</h2>
- <dt>Bénévolat AFGES - Strasbourg</dt>
- <dd>Organisation et distribution de paniers alimentaires pour étudiants</dd>
-<dt>Club Toastmasters (Strasbourg-Abidjan)</dt> 
-<dd>Développement de la prise de parole en public et des arts oratoires</dd>
-<dt>MUN (Models of United Nations)</dt>
-<dd>Délégué Colombie au conseil ECOSOC - La haye (2014)</dd>
-</div>
-
-
+<h3> Coordonnées</h3>
+<p><a href="https://www.linkedin.com/in/aichazehilafofana/">Mon profil linkedin</a></p>
+ <p><a href="mailto:aichaz.fofana@icloud.com">Me contacter par mail!</a></p>
+ <p><a href="monfichier.zip">Mon CV en format pdf (à remplacer)</a></p>
 </body>
 </html>
