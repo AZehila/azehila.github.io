@@ -4,34 +4,34 @@
    <meta charset="UTF-8">
    <link rel="stylesheet" href="style_cv.css" />
   <title>Mon CV FOFANA Aicha</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
 
    
 
    <header> 
-      <div class ="wrapper">
          <div class="entete">
+            <h2></h2>
             <nav>
-               <ul>
-                  <li><a href="#">Mes expériences</a> </li>
-                  <li><a href="#">Mon parcours</a> </li>
-                  <li><a href="#">Contact</a></li>
-               </ul>
+               <div class="buttons">
+                  <a href="#" class="btn btn-1"> Mes expériences</a>
+                  <a href="#" class="btn btn-2">Mon parcours</a>
+                  <a href="#"class="btn btn-4">Contact</a>
+            </div>
             </nav>
          </div>
-      </div>
    </header>
 
   
    <div class="boxcv">
       <div class="agauche">
          <div class="agauche-img">
-   <img src="Photo cv.png" alt="Photo cv"/>
+   <img src="Photo cv.png" alt="Photo cv" id="photocv"/>
          </div>
 
-<div class="agauche-info">
-   <h2> Informations personnelles</h2>
+<div class="agauche-info" id="contact">
+   <h4> Informations personnelles</h4>
    <p>+ 33 18 90 12 78</p>
    <p><a href="https://www.linkedin.com/in/aichazehilafofana/">Mon profil linkedin</a></p>
     <p><a href="mailto:uneapprentiedpo@icloud.com">Me contacter par mail!</a></p>
@@ -58,8 +58,7 @@
 
 
 <div class="adroite">
-   <div class="adroite-exp">
-      <h2> Expériences professionnelles</h2>
+   <div id="experiences" class="adroite-exp"><h2> Expériences professionnelles</h2>
       <dl>
           <dt><h3>Apprentie Chargée Données Personnelles</h3>
          <h4><strong>Carrefour/CarrefourBanque | Janvier 2022 - Present </strong></h4>
@@ -100,7 +99,7 @@
      </dt>
       </dl>
    </div>
-   <div class="adroite-form">
+   <div class="adroite-form" id="formations">
 
       <h2> Formation Universitaire</h2>
       <li><strong>Droit du numérique Parcours informatique et droit | UPEC</strong>  </li>
