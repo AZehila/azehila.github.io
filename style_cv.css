@@ -45,8 +45,8 @@ body {
     position: relative;
     text-decoration:none;
     padding: 20px 20px;
-    margin-left: 40px;
-    margin-right:60px;
+    margin-left: 80px;
+    margin-right:80px;
 }
 
 /* Bouton 1 animations */
@@ -157,7 +157,7 @@ body {
 }
 
 
-/* Attributions générales aux titres H2 H4 H5*/
+/* Attributions générales aux classes etc*/
 
 h2
 {
@@ -196,6 +196,13 @@ li,p
     font-size: 14px;
 }
 
+.adroite img{
+    float: left;
+    width:  100px;
+    height: 100px;
+    object-fit:cover;
+    margin-right: 15px;
+}
 /* GESTION ENTETE ET HEADER*/
 
 .entete 
@@ -278,7 +285,7 @@ li,p
 .agauche a
 {
     text-decoration: none;
-   color: #131516;
+    color: #131516;
 }
 
 .agauche-img 
@@ -288,7 +295,7 @@ li,p
     object-fit: contain;
 }
 
-.agauche-img img
+#photocv
 {
     border-radius: 30px;
     margin-left: 3px;
@@ -296,10 +303,13 @@ li,p
     border-style: solid;
 }
 
+.QRcodePDF img
+{
+    object-fit: contain;
+}
 
 .agauche-info p
 {
-
     line-height:1;
     font-family: 'Space Mono', monospace;
 }
@@ -360,6 +370,7 @@ margin: 30px;
 {
     margin: 20px;
 }
+
 
 .adroite-form
 {
