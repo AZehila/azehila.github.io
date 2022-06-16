@@ -3,6 +3,7 @@ body
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
+    font-size:14px;
 }
 
 div
@@ -16,7 +17,6 @@ h1
     flex-flow: row;
     background-color: darkgrey;
     text-justify: center;
-    margin
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -27,15 +27,18 @@ h1
 .main
 {
     background-color: white;
-    border-style: solid;
     display: flex;
     flex-direction: row;
     position: relative;
     text-align: center;
+    margin-top:15px;
+    align-items: baseline;
+    
 }
+
 .gauche
 {
-    background-color: darkgrey;
+    background-color: rgb(219, 218, 218);
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -44,6 +47,14 @@ h1
     display: flex;
     flex-direction: column;
     width: 25%;
+    justify-content: start;
+}
+
+.gauche h1
+{
+    background-color: rgb(238, 237, 237);
+    margin-left:10px;
+    margin-right:10px;
 }
 
 .bottom
@@ -54,7 +65,7 @@ h1
 
 .droite
 {
-    background-color: darkgrey;
+    background-color: rgb(219, 218, 218);
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -66,9 +77,27 @@ h1
    
 }
 
+.droite h1
+{
+    background-color: rgb(238, 237, 237);
+    border-style:outset;
+}
+
+.droite p
+{
+    text-align:right;
+    padding: 20px;
+}
+
+.gauche p
+{
+    text-align: left;
+    padding: 20px;
+}
+
 .centre
 {
-    background-color: darkgrey;
+    background-color: rgb(187, 187, 187);
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -85,16 +114,47 @@ h1
     display: flex;
     flex-direction: column;
     padding: 10px;
+    border-top :solid;
+    margin-top:10px;
+    margin-left:10px;
+    margin-right:10px;
+    background-color: rgb(219, 218, 218);
+}
+
+.top h1
+{
+background-color: rgb(238, 237, 237);
+margin-right: 25%;
+margin-left:25%;
+}
+
+.bottom h1
+{
+    text-align: right;
+    font-style: italic;
+    border: none;
+    text-transform: lowercase;
+    background-color: rgb(219, 218, 218);
+}
+
+.soustitre p
+{
+    display: flex;
+    padding: 30px;
+    border-left: solid;
+    border-right: solid;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .bottom
 {
-    border-style:solid;
+    border-bottom: solid;
     display: flex;
     flex-direction: column;
-    margin: 5px;
+    margin: 15px;
     padding: 25px;
-    
+    background-color: rgb(219, 218, 218);
 }
 
 
@@ -103,8 +163,14 @@ h1
     margin-top: 15px;
     display: flex;
     flex-direction: column;
-    border-style: solid;
+    border-right: solid;
+    border-left:solid;
     text-align: center;
+    background-color: rgb(219, 218, 218);
 }
 
-
+.bas h1
+{
+    background-color: rgb(238, 237, 237);
+    border-style:none;
+}
