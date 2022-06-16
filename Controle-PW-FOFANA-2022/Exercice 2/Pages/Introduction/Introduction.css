@@ -122,41 +122,6 @@ body
     transform: translate(5px, 5px); 
 }
 
-.btn-3
-{
-    color: #000;
-}
-
-.btn-3::after, .btn-3::before
-{
-    border: 2px solid #000;
-    content: "";
-    position: absolute;
-    width: calc(100% - 6px);
-    height:calc(100% - 6px);
-    left: 0;
-    bottom:0;
-    z-index: -1;
-    transform: transform 0.3 ease;
-
-}
-
-.btn-3:hover
-{
-    transform: translate(px, -12px);
-}
-
-.btn-3:hover::after
-{
-    transform: translate(-5px, -5px);  
-}
-
-.btn-3:hover::before
-{
-    transform: translate(5px, 5px); 
-}
-
-
 .intro
 {
     margin-top: 5%;
