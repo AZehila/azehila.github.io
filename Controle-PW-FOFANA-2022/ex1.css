@@ -1,28 +1,110 @@
+body
+{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+div
+{
+    background-color:
+}
+
+h1
+{
+    border: inset;
+    flex-flow: row;
+    background-color: darkgrey;
+    text-justify: center;
+    margin
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
 .main
 {
-    display: flexbox;
+    background-color: white;
+    border-style: solid;
+    display: flex;
     flex-direction: row;
-    width:auto;
+    position: relative;
+    text-align: center;
 }
 .gauche
 {
+    background-color: darkgrey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style:solid;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: 25%;
+}
+
+.bottom
+{
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 .droite
 {
-    display: flex;
-    flex-direction: row;
+    background-color: darkgrey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style:solid;
+    display:flex;
+    flex-direction: column;
+    width: 25%;
+   
 }
 
 .centre
 {
+    background-color: darkgrey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style:dotted;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    margin: 10px;
+    width: 50%;
 }
+
+.top
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.bottom
+{
+    border-style:solid;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 25px;
+    
+}
+
 
 .bas
 {
-    display: flexbox;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    text-align: center;
 }
+
+
