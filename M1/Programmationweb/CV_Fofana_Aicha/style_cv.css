@@ -25,6 +25,8 @@ body {
     width: 100%;
     flex-direction: column;
     align-items:center;
+    block-size: 12%;
+    height:2%;
 }
 
 .buttons
@@ -37,12 +39,13 @@ body {
 
 .btn
 {
-    display: flexbox;
+    display: flex;
     position: relative;
     text-decoration:none;
     padding: 20px 20px;
     margin-left: 80px;
     margin-right:80px;
+    align-items:baseline ;
 }
 
 /* Bouton 1 animations */
@@ -186,39 +189,6 @@ body {
     transform: translate(5px, 5px); 
 }
 
-.btn-5
-{
-    color: #000;
-}
-
-.btn-5::after, .btn-5::before
-{
-    border: 2px solid #000;
-    content: "";
-    position: absolute;
-    width: calc(100% - 6px);
-    height:calc(100% - 6px);
-    left: 0;
-    bottom:0;
-    z-index: -1;
-    transform: transform 0.3 ease;
-
-}
-
-.btn-5:hover
-{
-    transform: translate(px, -12px);
-}
-
-.btn-5:hover::after
-{
-    transform: translate(-5px, -5px);  
-}
-
-.btn-5:hover::before
-{
-    transform: translate(5px, 5px); 
-}
 
 
 /* Attributions générales aux classes etc*/
@@ -237,6 +207,7 @@ h2
 h4
 {
     font-family: glacial;
+    font-weight: bold;
     color: #836cb1;
     font-weight: lighter;
     text-transform: uppercase;
@@ -275,14 +246,14 @@ li,p
     background: rgb(181,222,236);
     background: linear-gradient(90deg, rgba(181,222,236,1) 0%, rgba(212,190,255,1) 91%);
     position:fixed;
-    height: 2%;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     width: 100%;
-    block-size: 12%;
     flex-direction: column;
     align-items:center;
     flex-wrap: wrap;
     border-style: double;
+    block-size: 12%;
+    padding-bottom: 1px;
     
 }
 

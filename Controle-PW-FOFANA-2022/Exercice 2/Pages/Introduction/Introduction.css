@@ -36,7 +36,6 @@ body
     display: flex;
     position: relative;
     margin-top: 2%;
-
 }
 
 .btn
@@ -121,6 +120,8 @@ body
 {
     transform: translate(5px, 5px); 
 }
+
+
 
 .intro
 {
