@@ -1,0 +1,28 @@
+.main
+{
+    display: flexbox;
+    flex-direction: row;
+    width:auto;
+}
+.gauche
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.droite
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.centre
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.bas
+{
+    display: flexbox;
+}
