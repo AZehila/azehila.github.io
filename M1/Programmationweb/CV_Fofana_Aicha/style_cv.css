@@ -1,10 +1,6 @@
 html
 {
     background: url(/background1.png) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 @font-face 
@@ -186,6 +182,40 @@ body {
 }
 
 .btn-4:hover::before
+{
+    transform: translate(5px, 5px); 
+}
+
+.btn-5
+{
+    color: #000;
+}
+
+.btn-5::after, .btn-5::before
+{
+    border: 2px solid #000;
+    content: "";
+    position: absolute;
+    width: calc(100% - 6px);
+    height:calc(100% - 6px);
+    left: 0;
+    bottom:0;
+    z-index: -1;
+    transform: transform 0.3 ease;
+
+}
+
+.btn-5:hover
+{
+    transform: translate(px, -12px);
+}
+
+.btn-5:hover::after
+{
+    transform: translate(-5px, -5px);  
+}
+
+.btn-5:hover::before
 {
     transform: translate(5px, 5px); 
 }

@@ -1,1 +1,152 @@
+html
+{
+    background: rgb(181,222,236);
+    background: linear-gradient(90deg, rgba(181,222,236,1) 0%, rgb(220, 206, 247) 91%);
+}
 
+body
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: justify;
+}
+
+*
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+h2
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.nav
+{
+    display: flexbox;
+    width: 100%;
+    flex-direction: column;
+    align-items:center;
+}
+
+.buttons
+{
+    display: flex;
+    position: relative;
+    margin-top: 2%;
+
+}
+
+.btn
+{
+    display: flex;
+    position: relative;
+    text-decoration:none;
+    padding: 20px 20px;
+    margin-left: 80px;
+    margin-right:80px;
+    
+}
+
+/* Bouton 1 animations */
+.btn-1
+{
+    color: #000;
+}
+
+.btn-1::after, .btn-1::before
+{
+    border: 2px solid #000;
+    content: "";
+    position: absolute;
+    width: calc(100% - 6px);
+    height:calc(100% - 6px);
+    left: 0;
+    bottom:0;
+    z-index: -1;
+    transform: transform 0.3 ease;
+
+}
+
+.btn-1:hover
+{
+    transform: translate(px, -12px);
+}
+
+.btn-1:hover::after
+{
+    transform: translate(-5px, -5px);  
+}
+
+.btn-1:hover::before
+{
+    transform: translate(5px, 5px); 
+}
+
+
+/*Bouton 2 animations */
+
+.btn-2
+{
+    color: #000;
+}
+
+.btn-2::after, .btn-2::before
+{
+    border: 2px solid #000;
+    content: "";
+    position: absolute;
+    width: calc(100% - 6px);
+    height:calc(100% - 6px);
+    left: 0;
+    bottom:0;
+    z-index: -1;
+    transform: transform 0.3 ease;
+
+}
+
+.btn-2:hover
+{
+    transform: translate(px, -12px);
+}
+
+.btn-2:hover::after
+{
+    transform: translate(-5px, -5px);  
+}
+
+.btn-2:hover::before
+{
+    transform: translate(5px, 5px); 
+}
+
+.intro
+{
+    margin-top: 5%;
+    border-radius: 10px;
+    border: solid;
+    background-color: rgb(214, 235, 241);
+    padding: 10%;
+    padding-top: 5%;
+}
+
+.main
+{
+    margin-top: 5%;
+    border-radius: 10px;
+    border: solid;
+    background-color: rgb(214, 235, 241);
+    padding: 10%;
+    padding-top: 5%;
+}
+
+p
+{
+    text-indent: 30px;
+}
